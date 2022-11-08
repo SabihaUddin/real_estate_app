@@ -1,7 +1,9 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:real_estate/design_profile.dart';
 import 'package:real_estate/pages/home_page.dart';
+import 'package:real_estate/profile_design.dart';
 import 'package:real_estate/utilis/consant.dart';
 
 void main() {
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: COLOR_White,textTheme: screenWidth<500?Text_Theme_Smaller:Text_Default_Theme,fontFamily: "Montserrat"
       ),
-      home: HomePage(),
+      home: DesignPage(),
     );
   }
 }
